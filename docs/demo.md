@@ -10,4 +10,3 @@ This Java based project includes several security capabilities that are provided
 * Image Signing
 * SBOM Signing and Attestation
 * Transparency
-
