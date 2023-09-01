@@ -70,4 +70,3 @@ jobs:
   
       - name: Attach SBOM
         run: cosign attest --predicate=./target/classes/META-INF/maven/com.redhat.meetups/nljug-sigstore-demo-app/license.spdx.json -y --type=spdxjson ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}@${{ steps.push-to-registry.outputs.digest }}
-
